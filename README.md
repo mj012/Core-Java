@@ -586,44 +586,12 @@ etc.
 
 | Access Modifier | within class | within package | outside package by subclass | outside package |
 | --------------- | ------------ |--------------- |---------------------------- |---------------- |
-| PRIVATE         | &#10003;     | Engineer       |Manager                      |Manager          |
-| DEFAULT         | &#10003;     | Designer       |Manager                      |Manager          |
-| PROTECTED       | &#10003;     | Manager        |Manager                      |Manager          |
-| PUBLIC          | &#10003;     | Manager        |Manager                      |Manager          |
+| PRIVATE         | &#10003;     | &#9587;        |&#9587;                      |&#9587;          |
+| DEFAULT         | &#10003;     | &#10003;       |&#9587;                      |&#9587;          |
+| PROTECTED       | &#10003;     | &#10003;       |&#10003;                     |Manager          |
+| PUBLIC          | &#10003;     | &#10003;       |&#10003;                     |&#10003;         |
 
 
-```
-Access
-Modifier
-```
-```
-Within
-Class
-```
-```
-Within
-Package
-```
-```
-Outside Package By
-Subclass Only
-```
-```
-Outside
-Package
-```
-```
-Private Y N N N
-```
-```
-Default Y Y N N
-```
-```
-Protected Y Y Y N
-```
-```
-Public Y Y Y Y
-```
 The standard of defining package is domain.company.package e.g., com.javatpoint.bean or
 org.sssit.dao
 
