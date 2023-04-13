@@ -584,11 +584,13 @@ There are four types of Java access modifiers:
 There are many non-access modifiers, such as static, abstract, synchronized, native, volatile, transient,
 etc.
 
-| Name  | Age | Occupation |
+| Access | within | within package | outside package by subclass | outside package |
+ Modifier   class
 | ----- | --- | ---------- |
-| John  | 25  | Engineer   |
-| Alice | 30  | Designer   |
-| Bob   | 40  | Manager    |
+| PRIVATE | 25  | Engineer   |
+| DEFAULT | 30  | Designer   |
+| PROTECTED | 40  | Manager    |
+| PUBLIC | 40  | Manager    |
 
 
 ```
